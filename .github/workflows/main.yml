@@ -1,0 +1,13 @@
+name: Deploy to Psgallery
+on: [push]
+jobs:
+  deploy:
+    name: deploying
+    runs-on: ubuntu-latest
+    steps:
+      # - uses: actions/checkout@v1
+      - name: deploy
+        uses: einar/psgallerypublish
+        with:
+          tags: powershell
+          apiKey: ${{secrets.APIKEY}}
