@@ -18,8 +18,6 @@ LABEL "maintainer" = "OvrAp3x"
 
 ADD entrypoint.ps1  /entrypoint.ps1
 
-COPY LICENSE README.md /
-
 RUN chmod +x /entrypoint.ps1
 
 ENTRYPOINT ["pwsh", "/entrypoint.ps1"]
