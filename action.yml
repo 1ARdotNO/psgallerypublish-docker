@@ -1,6 +1,6 @@
 name: 'Publish to PowerShell Gallery'
 description: 'Publishing your module to the PowerShell Gallery'
-author: 'Shawn Melton'
+author: 'Einar Stenberg based on the work by Shawn Melton'
 inputs:
   tags:
     description: 'Tags to apply to your module in PowerShell Gallery. Should be comma list.'
