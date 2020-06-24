@@ -9,7 +9,6 @@ runs:
   using: 'docker'
   image: 'dockerfile'
   args:
-    - ${{ inputs.tags }}
     - ${{ inputs.apiKey }}
 branding:
   icon: 'upload'
