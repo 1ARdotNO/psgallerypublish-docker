@@ -9,6 +9,6 @@ jobs:
       - name: deploy
         uses: ovrap3x/psgallerypublish-docker@master
         with:
-          tags: powershell
+          tags: test1
           apiKey: ${{secrets.APIKEY}}
         
