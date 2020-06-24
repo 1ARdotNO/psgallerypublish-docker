@@ -7,7 +7,7 @@ jobs:
     steps:
       # - uses: actions/checkout@v1
       - name: deploy
-        uses: docker.io/einar/psgallerypublish@latest
+        uses: ovrap3x/psgallerypublish-docker@latest
         with:
           tags: powershell
           apiKey: ${{secrets.APIKEY}}
