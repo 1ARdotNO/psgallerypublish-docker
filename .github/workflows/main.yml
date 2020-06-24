@@ -11,3 +11,4 @@ jobs:
         with:
           tags: powershell
           apiKey: ${{secrets.APIKEY}}
+          registry:  docker.io
