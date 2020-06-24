@@ -7,7 +7,7 @@ jobs:
     steps:
       # - uses: actions/checkout@v1
       - name: deploy
-        uses: docker.pkg.github.com/ovrap3x/psgallerypublish-docker/image@latest
+        uses: docker.pkg.github.com/ovrap3x/psgallerypublish-docker@latest
         with:
           tags: powershell
           apiKey: ${{secrets.APIKEY}}
