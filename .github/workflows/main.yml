@@ -7,8 +7,8 @@ jobs:
     steps:
       # - uses: actions/checkout@v1
       - name: deploy
-        uses: einar/psgallerypublish@latest
+        uses: docker.io/einar/psgallerypublish@latest
         with:
           tags: powershell
           apiKey: ${{secrets.APIKEY}}
-          registry:  docker.io
+        
